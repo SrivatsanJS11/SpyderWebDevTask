@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FitConnect</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to FitConnect</h1>
+    <!-- Navigation menu -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Content area -->
+    <section>
+      <h2>User Registration</h2>
+      <!-- Registration form -->
+      <form id="registrationForm">
+        <!-- Form fields -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" required>
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" required>
+        
+        <label for="goals">Fitness Goals:</label>
+        <input type="text" id="goals" required>
+        
+        <label for="prefernce"> Workout Preference:</label>
+        <input type="text" id="prefernce" required>
+        
+        
+
+        <!-- Additional form fields for fitness goals and workout preferences -->
+
+        <input type="submit" value="Register" >
+      </form>
+    </section>
+
+    <section>
+      <h2>User Search</h2>
+      <!-- Search form -->
+      <form id="searchForm">
+        <!-- Search fields -->
+        <label for="location">Location:</label>
+        <input type="text" id="location" required>
+
+        <!-- Additional search fields for fitness level, workout preferences, and availability -->
+
+        <input type="submit" value="Search">
+      </form>
+    </section>
+
+    <section>
+      <h2>Workout Partner Profiles</h2>
+      <!-- Profile display -->
+      <div id="partnerProfiles">
+        <!-- Display partner profiles dynamically using JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
